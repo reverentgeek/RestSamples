@@ -34,9 +34,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.ApplicationServer.Common">
       <HintPath>..\packages\WebApi.Core.0.3.0\lib\40\Microsoft.ApplicationServer.Common.dll</HintPath>
     </Reference>
