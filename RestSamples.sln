@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rest.Client.Sample", "Rest.Client.Sample\Rest.Client.Sample.csproj", "{BD6B77D7-E8B3-4418-8065-12D75435F5BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rest.Client.Sample", "RestClientSample\Rest.Client.Sample.csproj", "{BD6B77D7-E8B3-4418-8065-12D75435F5BC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rest.Client.Web", "Rest.Client.Web\Rest.Client.Web.csproj", "{F06E5EE5-750F-4BB1-8B5B-A1EC08A17BE4}"
 EndProject
