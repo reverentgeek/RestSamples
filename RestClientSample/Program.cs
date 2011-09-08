@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Net;
 
 namespace RestClientSample
 {
@@ -7,24 +8,37 @@ namespace RestClientSample
 	{
 		static void Main(string[] args)
 		{
-
-			var webRequestSamples = new WebRequestSamples();
+            // Sample using WebRequest
+            var webRequestSamples = new WebRequestSamples();
 			Console.WriteLine(webRequestSamples.MakeYahooPostSample());
-			Console.WriteLine();
 
-			var hammockSamples = new HammockSamples();
-			Console.WriteLine(hammockSamples.MakeYahooPostSample());
-			Console.WriteLine();
+            // Sample using Hammock
+            //var hammockSamples = new HammockSamples();
+            //Console.WriteLine(hammockSamples.MakeYahooPostSample());
 
-			var restSharpSamples = new RestSharpSamples();
-			Console.WriteLine(restSharpSamples.MakeYahooPostSample());
-			Console.WriteLine();
+            // Sample using RestSharp
+            //var restSharpSamples = new RestSharpSamples();
+            //Console.WriteLine(restSharpSamples.MakeYahooPostSample());
 
-			// Console.Read();
+            // Performance Comparison
+            //RunPerfComparison(50);
 
-			RunPerfComparison(50);
-			Console.Read();
-			//return;
+            // Twitter Sample 1
+            //var twitterSample = new TwitterSamples();
+            //var response = twitterSample.GetFavorites("reverentgeek", 1, 5);
+            //if (response.StatusCode == HttpStatusCode.OK)
+            //    Console.WriteLine(response.Content);
+            //else
+            //    Console.WriteLine("Status: {0}, Content: {1}, Exception: {2}", response.StatusCode, response.Content,
+            //                     response.InnerException != null ? response.InnerException.Message : "");
+
+            // Twitter Sample 2
+            //var twitterSample = new TwitterSamples();
+            //var tweets = twitterSample.GetFavorites2("reverentgeek", 1, 5);
+            //foreach (var t in tweets)
+            //    Console.WriteLine("{0}{1}{2}", t.Id, Environment.NewLine, t.Text);
+
+            Console.Read();
 		}
 
 		static void RunPerfComparison(int iterations)
