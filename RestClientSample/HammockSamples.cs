@@ -1,7 +1,7 @@
 ﻿using Hammock;
 using Hammock.Web;
 
-namespace RestClientSample
+namespace Rest.Client.Sample
 {
 	public class HammockSamples : IRestSample
 	{

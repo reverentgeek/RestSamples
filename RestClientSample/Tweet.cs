@@ -1,7 +1,6 @@
-﻿using System;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
-namespace RestClientSample
+namespace Rest.Client.Sample
 {
     public class Tweet
     {

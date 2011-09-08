@@ -8,7 +8,7 @@
     <ProjectGuid>{BD6B77D7-E8B3-4418-8065-12D75435F5BC}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RestClientSample</RootNamespace>
+    <RootNamespace>Rest.Client.Sample</RootNamespace>
     <AssemblyName>RestClientSample</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>

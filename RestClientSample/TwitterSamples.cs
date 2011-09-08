@@ -6,7 +6,7 @@ using Hammock.Authentication.OAuth;
 using Hammock.Web;
 using Newtonsoft.Json;
 
-namespace RestClientSample
+namespace Rest.Client.Sample
 {
     public class TwitterSamples
     {

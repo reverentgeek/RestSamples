@@ -4,7 +4,7 @@ using System.Net;
 using System.Text;
 using System.Web;
 
-namespace RestClientSample
+namespace Rest.Client.Sample
 {
 	public class WebRequestSamples : IRestSample
 	{

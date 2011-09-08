@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
-using System.Net;
 
-namespace RestClientSample
+namespace Rest.Client.Sample
 {
 	class Program
 	{

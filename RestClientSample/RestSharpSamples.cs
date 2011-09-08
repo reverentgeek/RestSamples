@@ -1,6 +1,6 @@
 ﻿using RestSharp;
 
-namespace RestClientSample
+namespace Rest.Client.Sample
 {
 	public class RestSharpSamples : IRestSample
 	{
