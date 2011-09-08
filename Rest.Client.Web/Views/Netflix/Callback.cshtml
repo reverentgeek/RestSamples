@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Netflix REST Api Sample - Callback";
+}
+
+<h2>Netflix REST Api Sample</h2>
+<ul>
+@if (Model.LastResponse != null)
+{
+    <li>Status: @Model.LastResponse.StatusCode</li>
+    <li>Content: @Model.LastResponse.Content</li>
+}
+    <li>Token: @Model.Config.OAuthToken</li>
+    <li>Token Secret: ****</li>
+    <li>Application Name: @Model.Config.ApplicationName</li>
+    <li>UserId: @Model.Config.UserId</li>
+    <li>@Html.ActionLink("Back to Sample", "Index")</li>
+</ul>

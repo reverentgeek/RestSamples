@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Netflix REST Api Sample - Authorize";
+}
+
+<h2>Netflix REST Api Sample - Authorize</h2>
+<p>The application must first be authorized using OAuth.</p>
+<ul>
+@if (Model.LastResponse != null)
+{
+    <li>@Model.LastResponse.Content</li>
+}
+    <li>Token: @Model.OAuthToken</li>
+    <li>Token Secret: @Model.OAuthTokenSecret</li>
+    <li>Application Name: @Model.ApplicationName</li>
+    <li>LoginUrl: <a href="@Model.LoginUrl">Login to Netflix</a></li>
+</ul>

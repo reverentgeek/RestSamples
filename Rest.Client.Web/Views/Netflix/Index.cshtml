@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Netflix REST Api Sample";
+}
+<h2>Netflix REST Api Sample</h2>
+<h3>Movies in Instant Queue</h3>
+@if (Model.Items != null)
+{
+    foreach (var m in Model.Items)
+     {
+         <div class="movie">
+            <div class="thumbnail"><a href="@m.Link"><img src="@m.Thumbnail" alt="@m.Title" /></a></div>
+            <div class="title"><a href="@m.Link">@m.Title</a></div>
+            <div class="year">(@m.ReleaseYear)</div>
+         </div>
+     }
+} 
+else {
+    <p>@Model.Response.Content</p>
+}
